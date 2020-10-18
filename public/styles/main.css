@@ -1,7 +1,7 @@
 /* --------------------------------- Images --------------------------------------- */
 
 body {
-  background-image: url('../../public/images/Background.jpeg');
+  background-image: url('/images/Background.jpeg');
   background-size: 200vh;
 }
 
