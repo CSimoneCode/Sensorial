@@ -1,12 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const prompts = require('./promptSeedData');
-const user = require('./userSeedData');
 
 // Database connection
 const db = require('../models');
 
-// Current path '/activities'r
+// Current path '/activities'
 
 // GET Index /
 router.get('/', (req, res) => {
